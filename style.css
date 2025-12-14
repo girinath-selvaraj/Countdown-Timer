@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main card */
+.container {
+    background: #ffffff;
+    padding: 35px 30px;
+    width: 360px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Heading */
+.container h1 {
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+/* Input section */
+.input-box {
+    margin-bottom: 25px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+.input-box button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #1e88e5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-box button:hover {
+    background: #1565c0;
+}
+
+/* Timer boxes */
+.timer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.timer div {
+    background: #1e3c72;
+    color: white;
+    padding: 12px 5px;
+    border-radius: 10px;
+}
+
+.timer span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Message */
+#message {
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d32f2f;
+}

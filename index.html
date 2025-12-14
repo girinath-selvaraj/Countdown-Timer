@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Countdown Timer</h1>
+
+        <div class="input-box">
+            <label>Set Date & Time:</label>
+            <input type="datetime-local" id="dateTime">
+            <button onclick="startCountdown()">Start</button>
+            <audio id="alarmSound" src="alarm.mp3"></audio>
+        </div>
+
+        <div class="timer">
+            <div><span id="days">00</span>Days</div>
+            <div><span id="hours">00</span>Hours</div>
+            <div><span id="minutes">00</span>Minutes</div>
+            <div><span id="seconds">00</span>Seconds</div>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
